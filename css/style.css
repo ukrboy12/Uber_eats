@@ -1,0 +1,410 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  font-family: Roboto-Regular;
+}
+.content {
+  flex: 1 1 auto;
+}
+
+.footer {
+  min-width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 26px;
+  background-color: #262626;
+  height: 552px;
+  color: white;
+  font-size: 16px;
+}
+.logo-footer img {
+  width: 168px;
+  height: 77px;
+}
+
+.logo-footer {
+  height: 80px;
+  border-bottom: 1px solid white;
+}
+.footer__row1 {
+  padding: 32px;
+  height: 230px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  
+}
+.lang-select {
+  display: block;
+  font-size: 16px;
+  width: 227px;
+  height: 40px;
+  padding: 10px;
+  background-color: #3b3b3b;
+  color: white;
+}
+.footer__row__column2 {
+  padding-left: 97px;
+  padding-top: 15px;
+}
+.footer__row__column3 {
+  padding-left: 128px;
+  padding-top: 15px;
+}
+.column1_element1 {
+  display: block;
+  height: 73px;
+  font-size: 16px;
+  position: static;
+}
+.column1_element2 {
+  display: block;
+  font-size: 16px;
+  position: static;
+}
+.text-uber {
+  display: inline;
+  color: #49a144;
+}
+.text-uber-eats {
+  padding-top: 33px;
+}
+
+.pic-social {
+  display: flex;
+  padding-top: 20px;
+  width: 68px;
+  justify-content: space-between;
+}
+
+.column2_elemnt1__text1 {
+  padding-bottom: 23px;
+}
+.column2_elemnt1__text2 {
+  padding-bottom: 23px;
+}
+.column3_elemnt1__text1 {
+  padding-bottom: 23px;
+}
+.column3_elemnt1__text2 {
+  padding-bottom: 23px;
+}
+.column3_elemnt1__text3 {
+  padding-bottom: 16px;
+}
+.pic-aplication-row {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  padding: 40px;
+  border-bottom: 1px solid white;
+}
+
+.footer-footer {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+}
+
+.header-logo {
+}
+.header-row1 {
+  padding-top: 14px;
+}
+
+.login-btn {
+  height: 40px;
+  width: 78px;
+  border: 1px solid #e0e0e0;
+  background-color: rgba(38, 38, 38, 0.01);
+  border-radius: 6px;
+}
+
+.content {
+  padding-top: 56px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.text-restaraunt-kitchen {
+  font-size: 16px;
+  border-bottom: 1px solid #626262;
+  height: 24px;
+}
+
+.text-restaraunt-kitchen p {
+  color: #626262;
+}
+
+.res-in-kyiv {
+  margin-top: 56px;
+  height: 34px;
+  font-size: 28px;
+}
+
+.restaurants {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: unset;
+}
+.empty-box-card {
+  width: 370px;
+  height: 390px;
+}
+.card-restaurants {
+  width: 317px;
+  height: 366px;
+  background-color: rgba(117, 117, 117, 0.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) ;
+}
+.img-card {
+  width: 317px;
+  height: 256px;
+}
+
+.card-head {
+  margin-top: 16px;
+  font-size: 16px;
+  color: rgba(29, 29, 29, 1);
+}
+
+.menu {
+  margin-top: 4px;
+  font-size: 14px;
+  color: rgba(98, 98, 98, 1);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../font/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.head-rest{
+  height: 364px;
+  margin: 0px;
+  
+}
+
+.head-rest-card{
+  margin-top: 80px;
+  margin-left:10%;
+  height: 204px;
+  width: 389px;
+  background-color:white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+}
+
+.rest-card-name{
+  padding-top: 38px;
+  padding-left: 38px;
+  font-size: 36px;
+  
+}
+.rest-card-footer{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 38px;
+  padding-right: 46px;
+  padding-top: 66px;
+}
+
+.rest-card-time{
+  color: white;
+  background-color: black;
+  border-radius: 16px;
+  width: 70px;
+  margin-top: -8px;
+}
+.rest-card-time p {
+  padding-left:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rest-card-kitchen{
+  font-size: 14px;
+  color:rgba(98, 98, 98, 1);
+}
+.food{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: unset;
+  margin-left: 5%;
+}
+.card-food{
+  background-color: rgba(117, 117, 117, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.card-food-details{
+  display: inline;
+  
+}
+
+.card-food-details div{
+  margin-left: 16px;
+  margin-top: 16px;
+  width: 245px;
+  display: inline-block;
+}
+
+.card-food img{
+  margin-left: 34px;
+  display: inline;
+  width:200px;
+  height: 160px;
+}
+
+.card-food-empty-box{
+  width: 540px;
+  height: 209px;
+
+}
+
+.name-food{
+  font-size:18px;
+}
+.food-details{
+  margin-top: -10px;
+  font-size: 14px;
+  color:rgba(98, 98, 98, 1);
+}
+
+.coast{
+  font-size: 16px;
+  margin-top: 68px;
+  font-weight:bold;
+}
+
+.name-menu{
+  margin-top: 56px;
+  margin-left: 15%;
+  font-size: 24px;
+}
+
+.nav-menu{
+  margin-top: 32px;
+  margin-left: 15%;
+  padding-bottom: 29px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2) ;
+}
+
+a{
+  color: rgba(50, 116, 48, 1);
+}
+
+.nav-menu-a{
+  margin-right: 40px;
+}
